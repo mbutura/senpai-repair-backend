@@ -1,6 +1,6 @@
-# Phase 3 Project Guidelines
+# Senpai repair back office
 
-## Learning Goals
+## Description
 
 - Senpai repair shop back office software.
 
