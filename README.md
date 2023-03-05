@@ -2,18 +2,17 @@
 
 ## Learning Goals
 
-- Build a web basic API with Sinatra and Active Record to support a React
-  frontend
+- Senpai repair shop back office software.
 
-## Introduction
+## Setup
 
-Congrats on getting through all the material for Phase 3! Now's the time to put
-it all together and build something from scratch to reinforce what you know and
-expand your horizons.
+Install Ruby gems dependencies at local install path as vendor/bundle
 
-The focus of this project is **building a Sinatra API backend** that uses
-**Active Record** to access and persist data in a database, which will be used
-by a separate **React frontend** that interacts with the database via the API.
+```
+bundle install --path vendor/bundle
+```
+
+
 
 ## Requirements
 
