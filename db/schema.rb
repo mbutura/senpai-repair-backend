@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 2023_03_05_210413) do
     t.float "longitude"
     t.string "description"
     t.integer "job_status_id"
+    t.integer "service_person_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -30,7 +31,6 @@ ActiveRecord::Schema.define(version: 2023_03_05_210413) do
   create_table "service_people", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
-    t.integer "job_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

@@ -1,4 +1,4 @@
 class Job< ActiveRecord::Base
-    has_many :service_persons
+    belongs_to :service_person
     belongs_to :job_status
   end

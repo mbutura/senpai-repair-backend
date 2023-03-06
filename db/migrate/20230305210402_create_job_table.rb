@@ -5,6 +5,7 @@ class CreateJobTable < ActiveRecord::Migration[6.1]
       t.float :longitude
       t.string :description
       t.integer :job_status_id
+      t.integer :service_person_id
       t.timestamps
     end
   end

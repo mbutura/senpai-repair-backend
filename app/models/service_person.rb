@@ -1,3 +1,3 @@
-class Service_person< ActiveRecord::Base
-    belongs_to :job
+class ServicePerson< ActiveRecord::Base
+    has_many :jobs
   end
