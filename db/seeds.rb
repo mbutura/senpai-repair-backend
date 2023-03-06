@@ -1,11 +1,5 @@
 puts "🌱 Seeding spices..."
 
-# Seed your database here
-
-Service_person.delete_all
-Job.delete_all
-Job_status.delete_all
-
 nairobi_lon_min = 36.665297
 nairobi_lon_max = 37.032825
 nairobi_lat_min = -1.426108
