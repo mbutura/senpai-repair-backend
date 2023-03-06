@@ -2,11 +2,6 @@ puts "🌱 Seeding spices..."
 
 # Seed your database here
 
-puts "✅ Done seeding!"
-puts "🌱 Seeding spices..."
-
-# Seed your database here
-
 Service_person.delete_all
 Job.delete_all
 Job_status.delete_all
