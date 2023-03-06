@@ -20,8 +20,11 @@ bundle exec rake db:migrate db:seed
 
 Start the backend development server
 
-This server is visible at port
-[http://localhost:9292](http://localhost:9292).
+```
+bundle exec rake server
+```
+
+This server should now be accessible at [http://localhost:9292](http://localhost:9292).
 
 ## Requirements achieved
 
@@ -48,7 +51,7 @@ This server is visible at port
   the needed data from your database and provide as JSON to the front end. You
   should NOT be relying on filtering front end state or a separate fetch request to
   retrieve related data. (YES - IN PROGRESS)
-  
+
 ## API endpoints supported
 
 ### Service people
