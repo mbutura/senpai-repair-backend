@@ -18,10 +18,10 @@ Setup migrations and seed data
 bundle exec rake db:migrate db:seed
 ```
 
-Start the backend development server
+If testing this with the frontend HTTP server on the same machine, Start the backend development server in the background
 
 ```
-bundle exec rake server
+nohup bundle exec rake server QUEUE="*" --trace > rake.out 2>&1 &
 ```
 
 This server should now be accessible at [http://localhost:9292](http://localhost:9292).
